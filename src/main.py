@@ -65,6 +65,7 @@ usb = io.USB(
     product="TREZOR",
     serial_number=get_device_id(),
     interface="TREZOR Interface",
+    usb21_landing=False,
 )
 
 usb.add(usb_wire)
